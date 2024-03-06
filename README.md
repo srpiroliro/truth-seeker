@@ -1,6 +1,8 @@
 # truth seeker
 A project which last year in collab with @esteve11, I decided to do "remake" and improve several aspects.
 
+Currently works only on ABC... tests.
+
 ## How to use?
 ![image](https://github.com/srpiroliro/truth-seeker/assets/56773568/0b257f53-4069-490e-b90f-e365390c72e7)
 ### Configuring
