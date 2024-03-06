@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>truth seeker</title>
+    <meta charset="utf-8">
+</head>
+<body style="text-align:center">
+    <div style="width: 300px">
+        <h2>[ TRUTH SEEKER ]</h2>
+        <p style="opacity:0.5;" id="uid">userid</p>
+        
+        <input type="checkbox" name="enabler" id="enabler" checked>
+        <label for="enabler">extension enabled</label>
+        
+        <br> <hr> <br>
+
+        <label for="slider">
+            opacity slider <br>
+            <i>[0 => transparent, 1 => opaque]</i>
+        </label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="slider">
+        
+        <!-- <label for="room-id">room id:</label>
+        <input type="text" name="room-id" id="room-id" placeholder="room id" minlenght=4 maxlength=10><br>
+        <input style="margin: 10px;" type="button" value="update room" id="update"> -->
+
+        <br> <hr> <br>
+
+        <label for="url">name:</label>
+        <input type="text" name="username" id="username" placeholder="username" minlenght=4 maxlength=100 value=""><br>
+        <input style="margin-top: 10px;" type="button" value="update username" id="update_username">
+        
+        <br> <br>
+        <br> <hr> <br>
+
+        <label for="url">server url:</label>
+        <input type="text" name="url" id="url" placeholder="https://example.com/" minlenght=4 maxlength=100 value=""><br>
+        <input style="margin-top: 10px;" type="button" value="update url" id="update_url">
+        <p><i>(sending an empty url will reset it to the default one)</i></p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

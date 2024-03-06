@@ -1,0 +1,26 @@
+# Add response to question
+POST http://localhost:5000/
+content-type: application/json
+
+{
+    "question": "q1",
+    "response": "responseA"
+}
+
+# Get quesion percentages
+GET  http://localhost:5000/
+content-type: application/json
+
+{
+    "question": "q1"
+}
+
+# Change answer
+PUT http://localhost:5000/
+content-type: application/json
+
+{
+    "question": "q1",
+    "old_response": "responseA",
+    "new_response": "responseB"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "truth seeker",
+  "manifest_version": 3,
+  "version": "3",
+  "description": "Extension that displays what other users with the same extension have answered in a Moodle quiz. piroliro",
+  "permissions": [
+    "storage"
+  ],
+
+  "action": {
+    "default_title": "truth seeker",
+    "default_popup": "index.html"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["https://*/*","http://*/*"],
+      "js": ["truth-seeker.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

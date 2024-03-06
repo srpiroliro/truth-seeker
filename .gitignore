@@ -1,0 +1,7 @@
+**/__pycache__
+server/.venv
+
+**/.env
+**/*.zip
+
+exam_example/
